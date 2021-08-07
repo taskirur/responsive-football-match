@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*top banner part*/
+.first-part {
+  display: flex;
+  gap: 35%;
+  padding-left: 20%;
+  padding-top: 5%;
+  background-color: royalblue;
+  margin-bottom: 4rem;
+}
+.fast-text {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.fast-top-image {
+  position: center;
+  width: 388px;
+  height: 428px;
+  left: 827px;
+  top: 135px;
+}
+
+.fast-top-image img {
+  width: 100%;
+}
+.button-click-me {
+  width: 168px;
+  height: 44px;
+  left: 156px;
+  top: 464px;
+  padding-top: 2%;
+  padding: 10px 24px;
+  background: #e02c6d;
+}
+.button-click-me:hover {
+  margin: 0px;
+  border: 4px solid red;
+}
+/*various player information*/
+.style-cart-image {
+  width: 30%;
+  margin: 10px;
+  padding: 2%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.style-cart-image img {
+  width: 100%;
+}
+.second-part {
+  padding-left: 6%;
+}
+.watch-button {
+  width: 168px;
+  height: 44px;
+  left: 156px;
+  top: 464px;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  padding: 0px;
+}
+.watch-button:hover {
+  margin: 0px;
+  border: 4px solid red;
+}
+/*visit our exiting match*/
+.third-part {
+  padding-top: 4%;
+}
+.third-half-div {
+  width: 35%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.third-half-div img {
+  width: 100%;
+}
+
+.formStyle {
+  background-color: #2ecc71;
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ecf0f1;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-size: 1em;
+  font-weight: 100;
+  color: #ffffff;
+}
+/*subscribe our channel*/
+
+.formButton {
+  background-color: #ffffff;
+  display: inline-block;
+  color: #2ecc71;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-right: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.formButton:hover {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+.subscription-part {
+  width: 500px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  object-fit: cover;
+  padding-left: 40%;
+}
+
+/*logo part*/
+.last-logo {
+  text-align: center;
+  width: 100%;
+}
+.last-image-part {
+  text-align: center;
+  width: 100%;
+}
+.deseign-footer {
+  text-align: center;
+  width: 100%;
+}
+
+/*mobile*/
+@media screen and (max-width: 1024px) {
+  .container {
+    font-size: 40px;
+  }
+  .fast-top-image {
+    position: absolute;
+    padding-top: 38%;
+    width: 300px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .style-cart-image {
+    width: 330px;
+    height: 474px;
+  }
+  .third-half-div img {
+    width: 100%;
+    align-items: center;
+  }
+  .formButton {
+    width: 330px;
+    margin: auto;
+  }
+  .third-part {
+    display: flex;
+    flex: 50%;
+  }
+  .subscription-part {
+    columns: auto;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+}
